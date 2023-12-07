@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#outerdiv {
+  background-color: #360369;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 50px;
+}
+#first-heading {
+  font-family: Montserrat;
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 122px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+#fetch-btn {
+  width: 492px;
+  height: 78px;
+  padding-inline: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+#fetch-btn:hover {
+  opacity: 0.9;
+  transform: scaleX(1.01);
+  color: #000000;
+}
+#secondpage{
+   display: flex;
+   flex:1;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   height: fit-content;
+}
+#second-page-top {
+    flex:0.7;
+  display: flex;
+  flex-direction: column;
+  gap:20px;  
+  background-color: #360369;
+  color: white;
+  padding-inline: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height:60vh;
+}
+#second-page-bottom {
+    flex:0.3;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding-inline: 30px;
+  height:40vh;
+}
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  /* padding-inline:50px; */
+  margin-top: 30px;
+  /* text-align: center; */
+  align-items: center;
+}
+.data > p {
+  /* text-align: center; */
+  background-color: #360369;
+  color: white;
+  /* margin:20px; */
+  padding-inline:50px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  /* width: 389px; */
+  width:fit-content;
+  font-size: 25px;
+  height: 82px;
+  top: 1445px;
+  left: 66px;
+  border-radius: 10px;
+  border: 2px solid #360369;
+
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 300;
+  /* line-height: 39px; */
+  /* letter-spacing: 0em; */
+  text-align: center;
+  
+
+}
+#second-page-heading{
+    font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #360369;
+}
+#second-page-top>h1{
+    font-family: Montserrat;
+font-size: 54px;
+font-weight: 700;
+line-height: 66px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+#second-page-top>p{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.latlong{
+    display: flex;
+    gap:30px;
+
+
+    /* width: 380px;
+    height: 87px;
+    top: 231px;
+    left: 66px; */
+    border-radius: 10px;
+}
+.latlong>p{
+    color:white;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0em;
+    background-color: #270846; 
+    padding-inline: 50px;
+padding-top:20px;
+padding-bottom: 20px; 
+}
+.lat {
+color:white;
+font-family: Montserrat;
+font-size: 36px;
+font-weight: 300;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #270846;
+padding-inline: 50px;
+padding-top:20px;
+padding-bottom: 20px;
+}
+.long { 
+    color:white;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #270846;
+    padding-inline: 50px;
+   padding-top:20px;
+   padding-bottom: 20px;
+ }
+ .map{
+    /* width:1600px;
+    height:320px; */
+ }
+ iframe{
+    width:100%;
+    height: 100%;
+ }
+
+
+
+
+ /* @media screen and (max-width: 888px) {
+    .latlong {
+      flex-direction: column;
+    }
+    .data {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .map {
+      margin-left: -3rem;
+    }
+  }
+  @media screen and (max-width: 620px) {
+    .data {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 530px) {
+    .first > h1 {
+      font-size: 3rem;
+    }
+    #fetch-btn {
+      width: 11rem;
+      height: 2.5rem;
+    }
+  } */
